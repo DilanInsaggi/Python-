@@ -3,12 +3,14 @@ class Usuario:
         self.name = name
         self.email = email
         self.balance_cuenta = balance_cuenta
-
+        
     def hacer_depósito(self, amount):
         self.balance_cuenta += amount
+        return self
 
     def hacer_giro(self, amount):
         self.balance_cuenta -= amount
+        return self
 
 
 guido = Usuario("Guido", "Correo@correo.cl", 0)

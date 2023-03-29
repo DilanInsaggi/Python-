@@ -12,7 +12,7 @@ email='lui.guer@gmail.com'
 
 guido = Usuario (name, email)
 
-name = 'david'
+'''name = 'david'
 
 email =/david.guer@gmail.com*
 
@@ -20,12 +20,12 @@ monty = Usuario(name, email )
 
 # Accediendo a los atributos de la instancia
 
-print (f 1 (guido.name) ")# salida: Michael
+print (f"" 1 (guido.name) ")# salida: Michael
 print (f* 2 (guido.email)") = salida: Michael
 print (f* 3 (monty .name) )
 
 # salida: Michael
 
-print(f* 4 (monty.email )
+print(f* 4 (monty.email )'''
 
 
