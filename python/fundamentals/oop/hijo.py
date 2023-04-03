@@ -1,1 +1,1 @@
-import padre as print
+import padre 
