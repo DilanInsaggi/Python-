@@ -11,3 +11,19 @@ class tiendita:
         for i in self.producto:
             print(f"{ i.nombre} {i.precio} {i.categoria} ")
         return self
+    
+    def vender(self, num, *nums):
+        self.result -= num
+        for n in nums:
+            self.result -= n
+
+    def inflacion(self, porcentaje , *nums):
+            self.result -= porcentaje    
+            for n in nums:
+                self.result += n
+
+    def hacer_liquidacion(self, num, *nums):
+            self.result -= num
+            for n in nums:
+                self.result -= n
+
